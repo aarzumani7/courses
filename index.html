@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Соточка</title>
+    <script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af82f9f74a8f571ef511871e6c4e4d34d3d1f900c20f3e80a3f91fb705a9b2a83&amp;width=529&amp;height=405&amp;id=map&amp;lang=ru_RU&amp;apikey=<adbcdf1b-0605-45f0-8d8d-878a10b0ea34>">
+        </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script1.js" defer></script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="header_row">
+                <!-- логотип -->
+                    <div class="header_logo col-md-2">
+                            <div>
+                                <a href="index.html">
+                                    <img src="images/logo.png" alt="">
+                                </div>
+                                </a>
+                            <div class="text_logo">
+                                <p>СОТОЧКА</p>
+                            </div>
+                    </div>
+                <!-- навигационная панель -->
+                <nav>
+                    <div class="header_nav col-md-9">
+                        <ul>
+                            <li>
+                                <a href="index.html">Главное</a>
+                            </li>
+                            <li>
+                                <a href="index2.html">О курсах</a>
+                            </li>
+                            <li>
+                                <a href="#top">О школе</a>
+                            </li>
+                            <li>
+                                <a href="#top2">Контакты</a>
+                            </li>
+                        </ul>
+                    <!-- модальное окно -->
+                    <div class="col-md-1">                           
+                        <button type="button" class="btn  btn-1 open-popup btn-warning">Записаться</button>
+                        <div class="popup-bg">
+                            <div class="popup">
+                                <img src="images/close.png" class="close-popup" height="20px" alt="">
+                                    <p class="text-popup">Позвоним вам
+                                    и расскажем <br>о нашей
+                                    школе</p>
+                                <form action="" class="contact_form" method="post" name="contact_form">                                     
+                                    <input type="text" class="contact_text" name="name" required placeholder="имя" />                                                               
+                                    <input type="tel" class="contact_text" name="tel" required placeholder="номер телефона" />
+                                    <button type="button" class="btn btn-primary btn-lg">Перезвоните мне</button>
+                                </form>
+                            </div>
+                        </div>           
+                    </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<div class="container">
+    <!-- главная информация -->
+    <div class="row">
+        <div class="history-main">
+            <div class="col-md-5 title">
+                <div class="history-title">
+                Курсы ЕГЭ по информатики 2023
+                </div>
+                <div class="history-desc">
+                    После данных курсах ребёнок поступит в вуз мечты. <br>
+                    Готовим детей в нашей онлайн-школе в Ростове-на-Дону. 
+                </div>
+                <a href="index2.html" class="btn-1">
+                    <button type="button" class="btn btn-warning">Записаться</button>
+                </a>
+            </div>
+            <div class="col-md-6 image-title">
+                   <img class="image-title" src="images/main.png" width="550" height="500">             
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- заголовок -->
+    <div class="row">
+            <div class="col-md-12">
+                <div class="title_2 ">
+                    Почему ребёнку трудно сдавать ЕГЭ на 80+ баллов
+                </div>
+            </div>
+        </div>
+    <!-- информация о заголовке -->
+    <div class="row">
+        <div class="icon_row">
+                <div class="col-md-5">
+                    <div class="icon">
+                        <img src="images/img_2.png" width="500">
+                    </div>
+                </div>
+                
+            <div class="col-md-6 text0">
+                <div class="text">
+                        <div class="text1">
+                                1.В школе слабо
+                                готовят к ЕГЭ
+                        </div>
+                        <div class="text2">
+                                2.Боится ЕГЭ
+                        </div>
+                        <div class="text3">
+                                3.Сложно готовиться
+                                самостоятельно
+                        </div>
+                        <div class="text4">
+                                4.Плохая успеваемость
+                        </div>
+                        <div class="text5">
+                                5.Нет мотивации поступить
+                                на бюджет
+                        </div>
+                </div>                 
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        <!-- заголовок 2 -->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="top"  class="title-school">
+                    "Соточка" готовит к ЕГЭ с 2019 года
+                </div>
+            </div>
+        </div>
+        <!-- информация о заголовке 2 -->
+        <div class="row">
+            <div class="info-school">
+                <!-- блок 1 -->
+                <div class="col-md-4">
+                    <div class="school-block">
+                        <div class="school-img1">
+                            <img src="images/img7.png" alt="">                   
+                        </div>
+                        <div class="school-img1_2">
+                            <img src="images/img7.1.png" alt="">
+                        </div>
+                        <div class="school_text1">
+                                700                                                                                               
+                        </div>
+                        <div class="tx">
+                            Выпускников за
+                            все время
+                        </div>
+                    </div>
+                </div>
+                <!-- блок 2 -->
+                <div class="col-md-4">
+                    <div class="school-block">
+                        <div class="school-img1">
+                            <img src="images/img7.png" alt="">
+                        </div>
+                        <div class="school-img2_2">
+                            <img src="images/img7.2.png" alt="">
+                        </div>
+                        <div class="school_text2">
+                                30
+                        </div>
+                        <div class="tx2">
+                            Сильнейших преподователей <br>
+                            в Ростове-на-Дону
+                        </div>
+                    </div>
+                </div>
+                <!-- блок 3 -->
+                <div class="col-md-4">
+                    <div class="school-block">
+                        <div class="school-img1">
+                            <img src="images/img7.png" alt="">
+                        </div>
+                        <div class="school-img3_2">
+                            <img src="images/img7.3.png" alt="">
+                        </div>
+                        <div class="schoool_text">
+                            <div class="school_text3">
+                                80,9
+                            </div>
+                        </div>
+                        <div class="tx3">
+                            Средний балл выпускников
+                            Соточки в 2021 году
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- заголовок 3 -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title_3">
+                    Контроль процесса обучения – залог 80+ баллов на ЕГЭ
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- карточки -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/img8.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Каждый месяц пробный ЕГЭ</h5>
+                        <p class="card-text">Родители и ученик видят динамику роста благодаря <br>ежемесячным пробникам ЕГЭ. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/img91.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Педагог на связи с учениками 24/7</h5>
+                        <p class="card-text">Педагог в чате в соц.сети поможет ученику разобраться в материале и ответит на вопросы по домашнему заданию.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/img10.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Смс-отчетность родителям</h5>
+                        <p class="card-text">После каждого урока родитель получает СМС с оценками ребенка за работу на занятии.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/img11 (2).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Мини-группы по уровню знаний</h5>
+                        <p class="card-text">Ученик занимается в небольшой группе, изначально разделенной по уровню знаний</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- заголовок к контактам -->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="top2"  class="title_4">
+                    Контакты онлайн-школы Соточка
+                </div>
+            </div>
+        </div>
+        <!-- контакты -->
+        <div class="row">
+            <div class="info-contact">
+                <div class="col-md-6 block_contact">
+                    <div class="block1_contact">
+                        <div class="t-contact">
+                            телефон:
+                        </div>
+                        <div class="number">
+                            +7 (952) 573-13-85  
+                        </div>
+                    </div>
+
+                    <div class="block2_contact">
+                        <div class="t-contact">
+                            почта для связи:
+                        </div>
+                        <div class="number">
+                            sotkaschool@mail.ru
+                        </div>
+                    </div>
+                </div>
+               
+
+                <div class="col-md-6">
+                    <div class="block2_contact">
+                        <div class="t-contact">
+                            адрес:
+                        </div>
+                        <a href="https://yandex.ru/maps/-/CDeE7Hmt"  class="t2-contact">
+                            ул. Козлова, 60/12, этаж 3, Ростов-на-Дону
+                        </a>
+                        <!-- карта -->
+                        <div id="map" class="map"></div> 
+                        <script>
+                            ymaps.ready(init);
+                            function init() {
+                                var map = new ymaps.Map("map", {
+                                    center: [47.23638506854424, 39.703685800655244],
+                                    zoom: 1,
+                                });
+                            };
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
