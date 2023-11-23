@@ -326,12 +326,12 @@ input:required {
     background: rgba(156, 151, 151, 0.3) url(images/red_asterisk.png) no-repeat 98% center;
 }
 .contact_form input:focus:invalid {
-    background: rgba(156, 151, 151, 0.3) url(invalid1.png) no-repeat 98% center;
+    background: rgba(156, 151, 151, 0.3) url(images/invalid1.png) no-repeat 98% center;
     box-shadow: 0 0 5px #d45252;
     border-color: #b03535;
 }
 .contact_form input:required:valid {
-    background: rgba(156, 151, 151, 0.3) url(valid.png) no-repeat 98% center;
+    background: rgba(156, 151, 151, 0.3) url(images/valid.png) no-repeat 98% center;
     box-shadow: 0 0 5px #5cd053;
     border-color: #28921f;
 }
